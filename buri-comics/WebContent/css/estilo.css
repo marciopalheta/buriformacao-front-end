@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.menu ul {
+	font-size: 15
+}
+
+.menu a {
+	color: #003366;
+}
+
+.menu ul li {
+	display: inline;
+	margin-left: 20px
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+}
+
+.carrinho {
+	background: url("../img/carrinho.png") no-repeat center right;
+	font-size: 14px;
+	padding-right: 35px;
+	text-align: right;
+	width: 140px;
+	
+	padding-top: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+header {
+	position: relative;
+}
+
+.menu {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
